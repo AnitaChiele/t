@@ -1,7 +1,5 @@
 from django.contrib import admin
-from django.urls import reverse
 from django.utils.translation import gettext as _l
-from django.utils.html import mark_safe
 from .models import(
     Pedido, StatusPedido, TipoLicenca, PedidoItem
 )
