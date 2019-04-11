@@ -1,0 +1,34 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_modify %}
+
+{% block extrahead %}
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="{% static "bootstrap/css/bootstrap.min.css" %}"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="{% static "materialize/css/materialize.min.css" %}"  media="screen,projection"/>
+  <link rel="stylesheet" href="{% static "css/personalizado.css" %}">
+{% endblock %}
+
+{% block title %}{% trans 'Pedidos' %} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+
+{% block breadcrumbs %}
+  <div class="breadcrumbs">
+  <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+  &rsaquo;
+  <a href="{% url 'admin:pedidos_pedido_changelist' %}">{% trans 'Pedidos' %}</a>
+  {% if title %} &rsaquo; {{ title }}{% endif %}
+  </div>
+{% endblock %}
+
+{% block content %}
+  <div id="content-main">
+    {% trans 'Não foi possível encontrar o(s) seu(s) pedido(s)...' %}
+  </div> <!-- #content-main ::end:: -->
+{% endblock %}
+
+{% block jsclosebody %}
+  <script src="{% static "js/jquery-3.3.1.min.js" %}"></script>
+  <script type="text/javascript" src="{% static "bootstrap/js/bootstrap.min.js" %}"></script>
+  <script type="text/javascript" src="{% static "materialize/js/materialize.min.js" %}"></script>
+  <script src="{% static "js/jquery.mask.min.js" %}"></script>
+  <script src="{% static "js/pedidos_detalhes.js" %}"></script>
+{% endblock %}

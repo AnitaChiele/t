@@ -1,0 +1,40 @@
+.accordion .btn.btn-link{
+  width: 100%;
+  text-align: left;
+  background-color: #f7f7f7;
+  color:#000;
+}
+
+.accordion button,
+.accordion button:hover,
+.accordion button:focus{
+  border:0px!important;
+  box-shadow: none!important;
+  text-decoration: none;
+}
+.accordion .success{
+  background: #28a745!important;
+  color: #28a745!important;
+}
+
+.accordion .licenca{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+.accordion ul li{
+  border-bottom: 1px solid #CECECE;
+  border-left: 1px solid #CECECE;
+  border-right: 1px solid #CECECE;
+  padding: 10px;
+  display: flex;
+}
+
+.accordion ul li div{
+  float: left;
+}
+.accordion ul li div.quantidade{
+  float: right;
+}
+

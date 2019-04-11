@@ -1,0 +1,1389 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "administracao",
+        "model": "cidade"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "administracao",
+        "model": "pais"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "administracao",
+        "model": "uf"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "produtos",
+        "model": "produto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "produtos",
+        "model": "tipoproduto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "pedido"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "pedidoenvio"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "pedidoitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "statuspedido"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "pedidos",
+        "model": "tipolicenca"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2455y2dnmknlchmbkxxe55a3z112w6kk",
+    "fields": {
+        "session_data": "YzMzYzBiZjU3NTk3OTIzYmI5YTVjOTIyNmVhMzY0YzUyYzViODdlMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2YWU0NWIwZDIyNzJlYWVhOTAzMDlmMzU0ZDNiMTI5NTM5OWM2YjcwIn0=",
+        "expire_date": "2019-04-22T06:06:26.544Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2c8mkqkkmp7igye9im8s13ddte252asz",
+    "fields": {
+        "session_data": "Y2Q3M2M4YWIzZjE5ZmNhZDY3NGIwOTAzMTc3ODAwN2Y1Y2U3MjJlYzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5MWI4MWNkOGY1ZGM1ZDk0NWRmNGU0ODQ2MDc5YTFjYTQzZWEwZTJmIn0=",
+        "expire_date": "2019-04-25T06:18:58.615Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gae65epeykudze2kd0714usf46zpoftc",
+    "fields": {
+        "session_data": "Y2Q3M2M4YWIzZjE5ZmNhZDY3NGIwOTAzMTc3ODAwN2Y1Y2U3MjJlYzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5MWI4MWNkOGY1ZGM1ZDk0NWRmNGU0ODQ2MDc5YTFjYTQzZWEwZTJmIn0=",
+        "expire_date": "2019-04-24T19:37:53.464Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "nt8asrlk8jmqe29r2v2g3id6gfy1pr5g",
+    "fields": {
+        "session_data": "Y2Q3M2M4YWIzZjE5ZmNhZDY3NGIwOTAzMTc3ODAwN2Y1Y2U3MjJlYzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI5MWI4MWNkOGY1ZGM1ZDk0NWRmNGU0ODQ2MDc5YTFjYTQzZWEwZTJmIn0=",
+        "expire_date": "2019-04-25T05:56:13.153Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "oxyrkxcdionxgobvsc9x2lstczqtso2e",
+    "fields": {
+        "session_data": "Njc2ZjY4ZTU0NjJiMmI2OWYyODNiNDRjYTVlNjM5MzJiZjhjOGYwNjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzNTU4MWQwZWQ5ZTBlZWNhY2VkN2M0NDU1ZjQxYjQwOThiNWE2YTNhIn0=",
+        "expire_date": "2019-04-22T15:29:06.196Z"
+    }
+},
+{
+    "model": "administracao.pais",
+    "pk": 1,
+    "fields": {
+        "sigla": "BRA",
+        "nome": "Brasil"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 1,
+    "fields": {
+        "pais": 1,
+        "sigla": "AC",
+        "nome": "Acre"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 2,
+    "fields": {
+        "pais": 1,
+        "sigla": "AL",
+        "nome": "Alagoas"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 3,
+    "fields": {
+        "pais": 1,
+        "sigla": "AP",
+        "nome": "Amap\u00e1"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 4,
+    "fields": {
+        "pais": 1,
+        "sigla": "AM",
+        "nome": "Amazonas"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 5,
+    "fields": {
+        "pais": 1,
+        "sigla": "BA",
+        "nome": "Bahia"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 6,
+    "fields": {
+        "pais": 1,
+        "sigla": "CE",
+        "nome": "Cear\u00e1"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 7,
+    "fields": {
+        "pais": 1,
+        "sigla": "DF",
+        "nome": "Distrito Federal"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 8,
+    "fields": {
+        "pais": 1,
+        "sigla": "ES",
+        "nome": "Esp\u00edrito Santo"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 9,
+    "fields": {
+        "pais": 1,
+        "sigla": "GO",
+        "nome": "Goi\u00e1s"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 10,
+    "fields": {
+        "pais": 1,
+        "sigla": "MA",
+        "nome": "Maranh\u00e3o"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 11,
+    "fields": {
+        "pais": 1,
+        "sigla": "MT",
+        "nome": "Mato Grosso"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 12,
+    "fields": {
+        "pais": 1,
+        "sigla": "MS",
+        "nome": "Mato Grosso do Sul"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 13,
+    "fields": {
+        "pais": 1,
+        "sigla": "MG",
+        "nome": "Minas Gerais"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 14,
+    "fields": {
+        "pais": 1,
+        "sigla": "PA",
+        "nome": "Par\u00e1"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 15,
+    "fields": {
+        "pais": 1,
+        "sigla": "PB",
+        "nome": "Para\u00edba"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 16,
+    "fields": {
+        "pais": 1,
+        "sigla": "PR",
+        "nome": "Paran\u00e1"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 17,
+    "fields": {
+        "pais": 1,
+        "sigla": "PE",
+        "nome": "Pernambuco"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 18,
+    "fields": {
+        "pais": 1,
+        "sigla": "PI",
+        "nome": "Piau\u00ed"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 19,
+    "fields": {
+        "pais": 1,
+        "sigla": "RJ",
+        "nome": "Rio de Janeiro"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 20,
+    "fields": {
+        "pais": 1,
+        "sigla": "RN",
+        "nome": "Rio Grande do Norte"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 21,
+    "fields": {
+        "pais": 1,
+        "sigla": "RS",
+        "nome": "Rio Grande do Sul"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 22,
+    "fields": {
+        "pais": 1,
+        "sigla": "RO",
+        "nome": "Rond\u00f4nia"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 23,
+    "fields": {
+        "pais": 1,
+        "sigla": "RR",
+        "nome": "Roraima"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 24,
+    "fields": {
+        "pais": 1,
+        "sigla": "SC",
+        "nome": "Santa Catarina"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 25,
+    "fields": {
+        "pais": 1,
+        "sigla": "SP",
+        "nome": "S\u00e3o Paulo"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 26,
+    "fields": {
+        "pais": 1,
+        "sigla": "SE",
+        "nome": "Sergipe"
+    }
+},
+{
+    "model": "administracao.uf",
+    "pk": 27,
+    "fields": {
+        "pais": 1,
+        "sigla": "TO",
+        "nome": "Tocantins"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 1,
+    "fields": {
+        "uf": 21,
+        "nome": "Porto Alegre"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 2,
+    "fields": {
+        "uf": 26,
+        "nome": "Aracaju"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 3,
+    "fields": {
+        "uf": 23,
+        "nome": "Boa Vista"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 4,
+    "fields": {
+        "uf": 20,
+        "nome": "Natal"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 5,
+    "fields": {
+        "uf": 18,
+        "nome": "Teresina"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 6,
+    "fields": {
+        "uf": 15,
+        "nome": "Jo\u00e3o Pessoa"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 7,
+    "fields": {
+        "uf": 13,
+        "nome": "Belo Horizonte"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 8,
+    "fields": {
+        "uf": 10,
+        "nome": "S\u00e3o Lu\u00eds"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 9,
+    "fields": {
+        "uf": 6,
+        "nome": "Fortaleza"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 10,
+    "fields": {
+        "uf": 4,
+        "nome": "Manaus"
+    }
+},
+{
+    "model": "administracao.cidade",
+    "pk": 11,
+    "fields": {
+        "uf": 1,
+        "nome": "Rio Branco"
+    }
+},
+{
+    "model": "produtos.tipoproduto",
+    "pk": 1,
+    "fields": {
+        "nome": "Software"
+    }
+},
+{
+    "model": "produtos.tipoproduto",
+    "pk": 2,
+    "fields": {
+        "nome": "Hardware"
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 1,
+    "fields": {
+        "nome": "Tablet Samsung",
+        "codigo": 123456,
+        "preco": "2500.00",
+        "imagem": "uploads/produtos/tablet_Pi8Jm4d.jpg",
+        "tipo": 2
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 2,
+    "fields": {
+        "nome": "Suporte met\u00e1lico para tablet",
+        "codigo": 123457,
+        "preco": "500.00",
+        "imagem": "",
+        "tipo": 2
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 3,
+    "fields": {
+        "nome": "Gaveta de dinheiro",
+        "codigo": 987654,
+        "preco": "7000.55",
+        "imagem": "",
+        "tipo": 2
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 4,
+    "fields": {
+        "nome": "Licen\u00e7a de software fiscal manager",
+        "codigo": 1,
+        "preco": "15000.58",
+        "imagem": "",
+        "tipo": 1
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 5,
+    "fields": {
+        "nome": "MP-4200 Ethernet",
+        "codigo": 645897,
+        "preco": "2000.00",
+        "imagem": "",
+        "tipo": 2
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 6,
+    "fields": {
+        "nome": "Leitor CCD BT Scanner",
+        "codigo": 321654,
+        "preco": "2000.00",
+        "imagem": "",
+        "tipo": 2
+    }
+},
+{
+    "model": "produtos.produto",
+    "pk": 7,
+    "fields": {
+        "nome": "Licen\u00e7a Software Bemacash",
+        "codigo": 2,
+        "preco": "20000.00",
+        "imagem": "",
+        "tipo": 1
+    }
+},
+{
+    "model": "pedidos.statuspedido",
+    "pk": 1,
+    "fields": {
+        "nome": "Aguardando aprova\u00e7\u00e3o",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.statuspedido",
+    "pk": 2,
+    "fields": {
+        "nome": "Aprovado",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.statuspedido",
+    "pk": 3,
+    "fields": {
+        "nome": "Recusado",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.statuspedido",
+    "pk": 4,
+    "fields": {
+        "nome": "Em implementa\u00e7\u00e3o",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.statuspedido",
+    "pk": 5,
+    "fields": {
+        "nome": "Finalizado",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.tipolicenca",
+    "pk": 1,
+    "fields": {
+        "nome": "Bemecash vestu\u00e1rio NFCe",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.tipolicenca",
+    "pk": 2,
+    "fields": {
+        "nome": "Bemecash com\u00e9rcio NFCe",
+        "descricao": ""
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 1,
+    "fields": {
+        "pedido": 1,
+        "produto": 1,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 2,
+    "fields": {
+        "pedido": 1,
+        "produto": 2,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 3,
+    "fields": {
+        "pedido": 1,
+        "produto": 4,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 4,
+    "fields": {
+        "pedido": 1,
+        "produto": 3,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 5,
+    "fields": {
+        "pedido": 2,
+        "produto": 1,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 6,
+    "fields": {
+        "pedido": 2,
+        "produto": 7,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 7,
+    "fields": {
+        "pedido": 2,
+        "produto": 6,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 8,
+    "fields": {
+        "pedido": 2,
+        "produto": 5,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 9,
+    "fields": {
+        "pedido": 2,
+        "produto": 3,
+        "quantidade": 1
+    }
+},
+{
+    "model": "pedidos.pedidoitem",
+    "pk": 10,
+    "fields": {
+        "pedido": 2,
+        "produto": 2,
+        "quantidade": 1
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can add Cidade",
+        "content_type": 7,
+        "codename": "add_cidade"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can change Cidade",
+        "content_type": 7,
+        "codename": "change_cidade"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can delete Cidade",
+        "content_type": 7,
+        "codename": "delete_cidade"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can add Pa\u00eds",
+        "content_type": 8,
+        "codename": "add_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can change Pa\u00eds",
+        "content_type": 8,
+        "codename": "change_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can delete Pa\u00eds",
+        "content_type": 8,
+        "codename": "delete_pais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add UF",
+        "content_type": 9,
+        "codename": "add_uf"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change UF",
+        "content_type": 9,
+        "codename": "change_uf"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete UF",
+        "content_type": 9,
+        "codename": "delete_uf"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can add Produto",
+        "content_type": 10,
+        "codename": "add_produto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can change Produto",
+        "content_type": 10,
+        "codename": "change_produto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can delete Produto",
+        "content_type": 10,
+        "codename": "delete_produto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can add Tipo do produto",
+        "content_type": 11,
+        "codename": "add_tipoproduto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can change Tipo do produto",
+        "content_type": 11,
+        "codename": "change_tipoproduto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can delete Tipo do produto",
+        "content_type": 11,
+        "codename": "delete_tipoproduto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can add Pedido",
+        "content_type": 12,
+        "codename": "add_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can change Pedido",
+        "content_type": 12,
+        "codename": "change_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can delete Pedido",
+        "content_type": 12,
+        "codename": "delete_pedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Pedido envio",
+        "content_type": 13,
+        "codename": "add_pedidoenvio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Pedido envio",
+        "content_type": 13,
+        "codename": "change_pedidoenvio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Pedido envio",
+        "content_type": 13,
+        "codename": "delete_pedidoenvio"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can add Item do pedido",
+        "content_type": 14,
+        "codename": "add_pedidoitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can change Item do pedido",
+        "content_type": 14,
+        "codename": "change_pedidoitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can delete Item do pedido",
+        "content_type": 14,
+        "codename": "delete_pedidoitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can add Status",
+        "content_type": 15,
+        "codename": "add_statuspedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can change Status",
+        "content_type": 15,
+        "codename": "change_statuspedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can delete Status",
+        "content_type": 15,
+        "codename": "delete_statuspedido"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can add Tipo da licen\u00e7a",
+        "content_type": 16,
+        "codename": "add_tipolicenca"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can change Tipo da licen\u00e7a",
+        "content_type": 16,
+        "codename": "change_tipolicenca"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can delete Tipo da licen\u00e7a",
+        "content_type": 16,
+        "codename": "delete_tipolicenca"
+    }
+},
+{
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+        "name": "Clientes",
+        "permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$TOkc0RpcaGJn$8XwRDZCckLSh/ZHbF5oy0ifQDFY26Jt5tg/a1KAtOMo=",
+        "last_login": "2019-04-11T06:18:58.597Z",
+        "is_superuser": true,
+        "username": "anita",
+        "first_name": "",
+        "last_name": "",
+        "email": "anita.lps@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-04-08T06:06:04.497Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$100000$ZDMf8LQ5ikxe$CiLxnG66vdlyDHN4fI7Kz/X+/zL8Cjr2WRrigUYtYoE=",
+        "last_login": "2019-04-11T06:27:30.979Z",
+        "is_superuser": false,
+        "username": "cliente01",
+        "first_name": "Cliente",
+        "last_name": "01",
+        "email": "anita.lps+1@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2019-04-08T15:55:59Z",
+        "groups": [
+            1
+        ],
+        "user_permissions": []
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 1,
+    "fields": {
+        "cliente": 2,
+        "data_criacao": "2019-04-10T19:45:45.698Z",
+        "licenca": 1,
+        "status": 1,
+        "preco_total": "25001.13",
+        "data_atualizacao": "2019-04-10T19:44:31Z",
+        "comentario": "coment\u00e1rio.",
+        "executivo_vendas": 2,
+        "num_pedido_hardware": 321,
+        "nfe": 123,
+        "data_emissao_nfe": "2019-04-10T19:44:42Z",
+        "cnpj": "12312312312123",
+        "uf": 21,
+        "cidade": 1,
+        "telefone": "51312312312",
+        "cep": "91215150",
+        "endereco": "Rua Francel\u00edcio Porto",
+        "pais": 1
+    }
+},
+{
+    "model": "pedidos.pedido",
+    "pk": 2,
+    "fields": {
+        "cliente": 2,
+        "data_criacao": "2019-04-10T19:46:42.625Z",
+        "licenca": 2,
+        "status": 1,
+        "preco_total": "34000.55",
+        "data_atualizacao": "2019-04-10T19:45:45Z",
+        "comentario": "",
+        "executivo_vendas": null,
+        "num_pedido_hardware": null,
+        "nfe": null,
+        "data_emissao_nfe": null,
+        "cnpj": "54545456787883",
+        "uf": 21,
+        "cidade": 1,
+        "telefone": "51312312312",
+        "cep": "90870020",
+        "endereco": "Rua Campos El\u00edseos",
+        "pais": 1
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2019-04-08T15:55:44.800Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Clientes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2019-04-08T15:55:59.117Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "cliente01",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2019-04-08T15:56:16.128Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "cliente01",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"email\", \"is_staff\", \"groups\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2019-04-10T19:45:45.782Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Tablet Samsung 123456\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Suporte met\\u00e1lico para tablet 123457\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Licen\\u00e7a de software fiscal manager 1\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Gaveta de dinheiro 987654\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-04-10T19:46:42.669Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Tablet Samsung 123456\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Licen\\u00e7a Software Bemacash 2\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Leitor CCD BT Scanner 321654\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"MP-4200 Ethernet 645897\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Gaveta de dinheiro 987654\"}}, {\"added\": {\"name\": \"Item do pedido\", \"object\": \"Suporte met\\u00e1lico para tablet 123457\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-04-11T06:11:16.580Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Clientes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-04-11T06:16:34.307Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Clientes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-04-11T06:19:21.212Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Clientes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-04-11T06:32:17.353Z",
+        "user": 1,
+        "content_type": 3,
+        "object_id": "1",
+        "object_repr": "Clientes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"permissions\"]}}]"
+    }
+}
+]
